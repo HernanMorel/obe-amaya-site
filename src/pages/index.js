@@ -9,8 +9,8 @@ import SocialLinks from '../components/SocialLinks';
 import Subscribe from '../components/Subscribe';
 import Header from '../components/Header';
 import logo from '../assets/images/logo-blanco.png';
-import demoImage1 from '../assets/images/demo-image-01.jpg';
-import demoImage2 from '../assets/images/demo-image 02.jpg';
+import demoImage from '../assets/images/demo-image.png';
+import demoImage1 from '../assets/images/demo-image 02.jpg';
 import bgProfile from '../assets/images/bg-profile-photo.jpg';
 import obeHeading from '../assets/images/ObeHeading.png';
 
@@ -46,7 +46,7 @@ const IndexPage = () => (
               {config.socialLinks.map((social) => {
                 const { icon, url } = social;
                 return (
-                  <a key={url} href={url} target="_blank" className={`mx-2`}>
+                  <a key={url} href={url} target="_blank" rel="noreferrer" className={`mx-2`}>
                     <i className={`fab ${icon}`}></i>
                   </a>
                 );
@@ -88,7 +88,7 @@ const IndexPage = () => (
               target="_blank"
               rel="noreferrer"
             >
-              <img className="img-fluid" id="overlay" src={demoImage1} alt="" />
+              <img className="img-fluid" id="overlay" src={demoImage} alt="" />
             </a>
           </div>
           <div className="col-lg-6">
@@ -119,7 +119,7 @@ const IndexPage = () => (
               target="_blank"
               rel="noreferrer"
             >
-              <img className="img-fluid" id="overlay" src={demoImage2} alt="" />
+              <img className="img-fluid" id="overlay" src={demoImage1} alt="" />
             </a>
           </div>
           <div className="col-lg-6 order-lg-first">
