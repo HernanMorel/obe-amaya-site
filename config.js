@@ -3,8 +3,8 @@ module.exports = {
   manifestName: 'Grayscale',
   manifestShortName: 'Landing', // max 12 characters
   manifestStartUrl: '/',
-  manifestBackgroundColor: '#663399',
-  manifestThemeColor: '#663399',
+  manifestBackgroundColor: '#FFFFFF',
+  manifestThemeColor: '#FFFFFF',
   manifestDisplay: 'standalone',
   manifestIcon: 'src/assets/img/favicon-3.png',
   pathPrefix: `/gatsby-starter-grayscale/`, // This path is subpath of your hosting https://domain/portfolio
