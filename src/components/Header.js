@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import Scroll from './Scroll';
 import config from '../../config';
+
 export default class Header extends Component {
   constructor(props) {
     super(props);
@@ -41,7 +42,8 @@ export default class Header extends Component {
       >
         <div className="container">
           <a className="navbar-brand" href="#page-top">
-            {config.siteTitle}
+             {config.siteTitle}
+           
           </a>
           <button
             onClick={_ => this.toggleMenu(!openMenu)}
@@ -65,10 +67,10 @@ export default class Header extends Component {
                 <Scroll
                   onClick={_ => this.toggleMenu(!openMenu)}
                   type="id"
-                  element="about"
+                  element="links"
                 >
-                  <a className="nav-link" href="#about">
-                    About
+                  <a className="nav-link" href="#links">
+                    Links
                   </a>
                 </Scroll>
               </li>
@@ -76,10 +78,10 @@ export default class Header extends Component {
                 <Scroll
                   onClick={_ => this.toggleMenu(!openMenu)}
                   type="id"
-                  element="projects"
+                  element="work"
                 >
-                  <a className="nav-link" href="#projects">
-                    Projects
+                  <a className="nav-link" href="#work">
+                    Work
                   </a>
                 </Scroll>
               </li>
@@ -87,9 +89,9 @@ export default class Header extends Component {
                 <Scroll
                   onClick={_ => this.toggleMenu(!openMenu)}
                   type="id"
-                  element="signup"
+                  element="contact"
                 >
-                  <a className="nav-link" href="#signup">
+                  <a className="nav-link" href="#contact">
                     Contact
                   </a>
                 </Scroll>

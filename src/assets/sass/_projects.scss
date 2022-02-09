@@ -7,6 +7,14 @@
       border-left: 0.5rem solid $primary;
     }
   }
+  #obe-info {
+    padding-top: 5rem;
+    padding-bottom: 13rem;
+  }
+  #work {
+    padding-top: 7rem;
+    padding-bottom: 8rem;
+  }
   .project-text {
     padding: 3rem;
     font-size: 90%;
@@ -14,9 +22,18 @@
       padding: 5rem;
       hr {
         border-color: $primary;
-        border-width: .25rem;
+        border-width: 0.25rem;
         width: 30%;
       }
     }
+  }
+  h4:hover {
+    color: darken($primary, 15%) !important;
+    transition: 0.2s ease-in-out;
+  }
+  #overlay:hover {
+    background-color: $white;
+    opacity: 0.8;
+    transition: 0.2s ease-in-out;
   }
 }

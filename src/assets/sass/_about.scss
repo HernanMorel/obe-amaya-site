@@ -1,7 +1,36 @@
 .about-section {
-  padding-top: 10rem;
-  background: linear-gradient(to bottom, $black 0%,#{fade-out($black, .1)} 75%,#{fade-out($black, .2)} 100%);
-  p {
-    margin-bottom: 5rem;
+  padding-top: 16rem;
+  padding-bottom: 15rem;
+  background: linear-gradient(
+    to bottom,
+    $black 0%,
+    #{fade-out($black, 0.1)} 95%,
+    #{fade-out($black, 0.2)} 100%
+  );
+  img {
+    max-height: 20rem;
+    padding-bottom: 3rem;
+  }
+  a {
+    color: white;
+  }
+
+  #social {
+    margin-top: 5rem;
+    a {
+      text-align: center;
+      height: 3rem;
+      width: 3rem;
+      background: fade-out($white, 0.9);
+      border-radius: 100%;
+      line-height: 3rem;
+      color: fade-out($white, 0.7);
+      &:hover {
+        color: fade-out($white, 0.5);
+      }
+      &:active {
+        color: $white;
+      }
+    }
   }
 }

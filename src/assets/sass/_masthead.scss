@@ -7,7 +7,7 @@
   background: linear-gradient(
       to bottom,
       #{fade-out($black, 0.7)} 0%,
-      #{fade-out($black, 0.3)} 75%,
+      #{fade-out($black, 0.2)} 65%,
       $black 100%
     ),
     url('../images/bg-masthead.jpg');
@@ -15,19 +15,15 @@
   background-repeat: no-repeat;
   background-attachment: scroll;
   background-size: cover;
-  h1 {
-    font-family: 'Varela Round';
-    font-size: 2.5rem;
-    line-height: 2.5rem;
-    letter-spacing: 0.8rem;
-    background: -webkit-linear-gradient(
-      fade-out(white, 0.1),
-      fade-out(white, 1)
-    );
-    -webkit-text-fill-color: transparent;
-    -webkit-background-clip: text;
+  img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 55rem;
+    border-color: transparent;
+    opacity: 0.7;
   }
-  h2 {
+  h3 {
     max-width: 20rem;
     font-size: 1rem;
   }
@@ -37,9 +33,12 @@
       line-height: 4rem;
     }
   }
+  @media (max-width: 835px) {
+  }
   @media (min-width: 992px) {
     height: 100vh;
     padding: 0;
+
     h1 {
       font-size: 6.5rem;
       line-height: 6.5rem;
