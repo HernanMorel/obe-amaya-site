@@ -1,6 +1,6 @@
 module.exports = {
   siteTitle: '', 
-  manifestName: 'Grayscale',
+  manifestName: 'Obē-Amaya',
   manifestShortName: 'Landing', // max 12 characters
   manifestStartUrl: '/',
   manifestBackgroundColor: '#FFF',
