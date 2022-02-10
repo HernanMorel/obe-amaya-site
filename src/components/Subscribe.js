@@ -20,6 +20,8 @@ export default function Subscribe() {
                 className="form-control flex-fill mr-0 mr-sm-2 mb-3 mb-sm-0"
                 id="inputEmail"
                 placeholder="Enter email address..."
+                name="referrer" 
+                content="origin"
                 required
               />
               <button type="submit" className="btn btn-primary mx-auto">
