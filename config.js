@@ -1,5 +1,5 @@
 module.exports = {
-  siteTitle: '', 
+  siteTitle: '',
   manifestName: 'Obē-Amaya',
   manifestShortName: 'Landing', // max 12 characters
   manifestStartUrl: '/',
@@ -7,7 +7,7 @@ module.exports = {
   manifestThemeColor: '#FFF',
   manifestDisplay: 'standalone',
   manifestIcon: 'src/assets/img/favicon-3.png',
-  pathPrefix: `/gatsby-starter-grayscale/`, // This path is subpath of your hosting https://domain/portfolio
+  pathPrefix: `www.obeamaya.com`, // This path is subpath of your hosting https://domain/portfolio
   subHeading: 'rapper, singer, songwriter',
 
   // social
