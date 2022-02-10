@@ -19,7 +19,7 @@ class Layout extends Component {
             }
           }
         `}
-        render={data => (
+        render={(data) => (
           <>
             <Helmet
               title={data.site.siteMetadata.title}
@@ -29,7 +29,7 @@ class Layout extends Component {
               ]}
             >
               <html lang="en" />
-              
+              <meta name="referrer" content="origin"></meta>
             </Helmet>
             <div className={'page-top'}>{children}</div>
           </>
