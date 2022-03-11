@@ -19,7 +19,9 @@ Esta fue mi primera vez usando Gatsby, encontré el uso general y las caracterí
 
 ## Cómo Iniciar
 ## Referencias de Gatsby
-[Un framework de react.js para sitios/apps estáticos] (https://www.gatsbyjs.com/)/[Biblioteca Gatsby Starter] (https://www.gatsbyjs.com/starters/)
+[Un framework de react.js para sitios/apps estáticos] (https://www.gatsbyjs.com/)
+
+[Biblioteca Gatsby Starter] (https://www.gatsbyjs.com/starters/)
 
 ``` 
 # Clone this repository
@@ -68,7 +70,9 @@ This was my first time using Gatsby, I found the overall usage and features real
 ## Get Started
 
 ## Gatsby Reference
-[A react.js framework for static sites/apps] (https://www.gatsbyjs.com/)/[Gatsby Starter Library] (https://www.gatsbyjs.com/starters/)
+[A react.js framework for static sites/apps] (https://www.gatsbyjs.com/)
+
+[Gatsby Starter Library] (https://www.gatsbyjs.com/starters/)
 
 ``` 
 # Clone this repository
