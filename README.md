@@ -1,4 +1,4 @@
-# Obe Amaya Site
+# Sitio Web Obe Amaya
 
 Este es un sitio web hecho para servir como una extensión de la presencia en línea del cliente, representando así mejor su marca a su público deseado. Usé Gatsby, que en sí mismo es un generador de sitios estáticos/framework para React. Viene pre-empaquetado con características y plugins bastante útiles. Como los datos que se muestran en la página están precalculados, la página web se carga extremadamente rápido, lo que permite a Google analizar el sitio web más rápido, en lo cual mejora los resultados de SEO. Utilicé una plantilla de inicio de Gatsby y la modifiqué con diferentes paletas de colores y recursos que me dio el cliente, es decir, fotos, logotipo y contenido de enlaces. También reestructuré el diseño y creé un formulario/cuenta de envío que enlaza con su correo electrónico profesional y permite a los que estén interesados suscribirse para recibir cualquier noticia o evento relacionado con su trabajo. 
 
