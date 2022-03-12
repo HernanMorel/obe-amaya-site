@@ -14,7 +14,7 @@ Esta fue mi primera vez usando Gatsby, encontré el uso general y las caracterí
 
 ## Implementación
 
-[Este es un enlace externo a la aplicación] (https://obeamaya.com/)
+[Este es un enlace externo al sitio web] (https://obeamaya.com/)
 
 
 ## Cómo Iniciar
