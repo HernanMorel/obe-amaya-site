@@ -28,7 +28,8 @@ Esta fue mi primera vez usando Gatsby, encontré el uso general y las caracterí
 $ git clone https://github.com/HernanMorel/obe-amaya-site
 
 # Go into the repository
-$ cd cv-app
+$ cd obe-amaya-site
+
 
 # Remove current origin repository
 $ git remote remove origin
@@ -79,7 +80,8 @@ This was my first time using Gatsby, I found the overall usage and features real
 $ git clone https://github.com/HernanMorel/obe-amaya-site
 
 # Go into the repository
-$ cd cv-app
+$ cd obe-amaya-site
+
 
 # Remove current origin repository
 $ git remote remove origin
