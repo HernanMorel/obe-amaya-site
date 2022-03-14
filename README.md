@@ -14,14 +14,14 @@ Esta fue mi primera vez usando Gatsby, encontré el uso general y las caracterí
 
 ## Implementación
 
-[Este es un enlace externo al sitio web] (https://obeamaya.com/)
+[Este es un enlace externo al sitio web](https://obeamaya.com/)
 
 
 ## Cómo Iniciar
 ## Referencias de Gatsby
-[Un framework de react.js para sitios/apps estáticos] (https://www.gatsbyjs.com/)
+[Un framework de react.js para sitios/apps estáticos](https://www.gatsbyjs.com/)
 
-[Biblioteca Gatsby Starter] (https://www.gatsbyjs.com/starters/)
+[Biblioteca Gatsby Starter](https://www.gatsbyjs.com/starters/)
 
 ``` 
 # Clone this repository
@@ -65,14 +65,14 @@ This was my first time using Gatsby, I found the overall usage and features real
 
 ## Deployment
 
-[This is an external link to the app] (https://obeamaya.com/)
+[This is an external link to the app](https://obeamaya.com/)
 
 ## Get Started
 
 ## Gatsby Reference
-[A react.js framework for static sites/apps] (https://www.gatsbyjs.com/)
+[A react.js framework for static sites/apps](https://www.gatsbyjs.com/)
 
-[Gatsby Starter Library] (https://www.gatsbyjs.com/starters/)
+[Gatsby Starter Library](https://www.gatsbyjs.com/starters/)
 
 ``` 
 # Clone this repository
