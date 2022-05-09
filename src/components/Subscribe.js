@@ -8,7 +8,7 @@ export default function Subscribe() {
           <div className="col-md-10 col-lg-8 mx-auto text-center">
             <i className="far fa-paper-plane fa-2x mb-2 text-white"></i>
             <h2 className="text-white mb-5">Subscribe to receive updates</h2>
-
+    {/*this formsubmit will act as a gateway to obe's email account */}
             <form
               className="form-inline d-flex"
               action="https://formsubmit.co/obemusic301@gmail.com"
