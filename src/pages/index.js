@@ -13,7 +13,7 @@ import demoImage from '../assets/images/demo-image.png';
 import demoImage1 from '../assets/images/demo-image 02.jpg';
 import bgProfile from '../assets/images/bg-profile-photo.jpg';
 import obeHeading from '../assets/images/ObeHeading.png';
-
+{/*take note of the separation of concerns with the compoment imports*/}
 const IndexPage = () => (
   <Layout>
     <Header />
