@@ -42,12 +42,14 @@ const IndexPage = () => (
             <h3 className="text-white mb-4 pb-3 font-italic">
               do más, máta miedo
             </h3>
+            {/*this map dynamically maps through the social media links from the config files*/}
             <div className="mt-0 d-flex justify-content-center" id="social">
               {config.socialLinks.map((social) => {
                 const { icon, url } = social;
                 return (
                   <a key={url} href={url} target="_blank" rel="noreferrer" className={`mx-2`}>
                     <i className={`fab ${icon}`}></i>
+                    {/*same deal with the urls, they get mapped for dynamic display*/}
                   </a>
                 );
               })}
