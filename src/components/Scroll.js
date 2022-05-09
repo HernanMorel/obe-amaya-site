@@ -5,7 +5,8 @@ import PropTypes from 'prop-types';
 const Element = props => {
   return props.children;
 };
-
+{/*the smoothscroll library comes preckaged with the main features fully customizable ref: https://github.com/iamdustan/smoothscroll*/}
+{/*must study this feature further*/}
 class Scroll extends React.Component {
   static propTypes = {
     type: PropTypes.string,
