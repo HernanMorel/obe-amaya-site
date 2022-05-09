@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 import Helmet from 'react-helmet';
 import { StaticQuery, graphql } from 'gatsby';
-
+{/*when react helmet is used with server-side rendering, it allows you to set meta tags that will be read by search engines and social media crawlers.*/}
 import '../assets/sass/grayscale.scss';
 
 class Layout extends Component {
